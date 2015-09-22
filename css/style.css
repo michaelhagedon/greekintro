@@ -1,0 +1,27 @@
+
+@font-face { 
+    font-family: "SBL Greek"; 
+    src: url('font/SBL_grk.ttf'); 
+} 
+
+body {
+    font-family: "SBL Greek";
+}
+
+#greek-text {
+    font-size: 2em;
+    font-family: "SBL Greek";
+}
+
+.word {
+    text-align: center;
+}
+
+.word.selected {
+    background-color: #4656a0;
+    color: white;
+}
+
+.pronunciation {
+    font-size: 60%;
+}
