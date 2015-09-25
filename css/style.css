@@ -13,16 +13,27 @@ body {
     font-family: "SBL Greek";
 }
 
-.word {
+.word, .word2 {
     text-align: center;
     margin-bottom: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
-.word.selected {
+.word.selected, .word2.selected {
     background-color: #4656a0;
     color: white;
 }
 
 .pronunciation {
     font-size: 60%;
+}
+
+.translation {
+    font-style: italic;
+    font-size: 80%;
+}
+
+.marked {
+    background: #aaa;
 }
