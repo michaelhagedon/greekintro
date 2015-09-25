@@ -15,6 +15,7 @@ body {
 
 .word {
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .word.selected {
