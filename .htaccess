@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule (lesson-2).html $1.php
+#    RewriteRule (.+).html $1.php
+#    RewriteRule (.+)\.[^(html)] $1.php
+</IfModule>
