@@ -8,7 +8,7 @@ require_once('includes/header.php');
 
 <h1>μάθημα β' <small>Lesson 2</small></h1>
             
-<h2>Audio</h2>
+<h2>Alphabet</h2>
 <div class="audio-container">
     <audio controls="controls" id="greek-audio">
         Your browser does not support the <code>audio</code> element.
@@ -171,13 +171,25 @@ require_once('includes/header.php');
 		<div class="row"><div class="col-xs-12">ω μέγα</div></div>
 		<div class="row"><div class="col-xs-12 pronunciation">oh meh'-gah</div></div>
 	</div>
+</div>
 
-	<div class="audio-container">
-		<audio controls="controls" id="greek-audio2">
-			Your browser does not support the <code>audio</code> element.
-			<source src="audio/ασπασμοι.mp3" type="audio/mp3">
-		</audio>
-	</div>
+<h2>Alphabet song</h2>
+<div class="audio-container">
+    <audio controls="controls" id="greek-audio">
+        Your browser does not support the <code>audio</code> element.
+        <source src="audio/αλφαβητος song.mp3" type="audio/mp3">
+    </audio>        
+</div>
+
+<h2>Greetings</h2>
+<div class="audio-container">
+	<audio controls="controls" id="greek-audio2">
+		Your browser does not support the <code>audio</code> element.
+		<source src="audio/ασπασμοι.mp3" type="audio/mp3">
+	</audio>
+</div>
+
+<div id="greek-text" class="row">
 	<div id="w25" class="word2 col-xs-4 col-lg-3">
 		<div class="row"><div class="col-xs-12">χαῖρε</div></div>
 		<div class="row"><div class="col-xs-12 pronunciation">kheh'reh</div></div>
