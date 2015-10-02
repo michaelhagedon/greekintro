@@ -82,13 +82,18 @@ require_once('includes/header.php');
 		<div class="row"><div class="col-xs-12 pronunciation">nd</div></div>
 	</div>
     <div class="clearfix visible-lg visible-xs"></div>        
-	
-    <div class="audio-container">
-		<audio controls="controls" id="greek-audio2">
-			Your browser does not support the <code>audio</code> element.
-			<source src="audio/προφορα practice.mp3" type="audio/mp3">
-		</audio>
-	</div>
+</div>
+
+
+<h2>Pronunciation practice</h2>
+<div class="audio-container">
+	<audio controls="controls" id="greek-audio2">
+		Your browser does not support the <code>audio</code> element.
+		<source src="audio/προφορα practice.mp3" type="audio/mp3">
+	</audio>
+</div>
+    
+<div id="greek-text" class="row">
 	<div id="w16" class="word2 col-xs-4 col-lg-3">
 		<div class="row"><div class="col-xs-12">καί</div></div>
 		<div class="row"><div class="col-xs-12 translation">and, also</div></div>
