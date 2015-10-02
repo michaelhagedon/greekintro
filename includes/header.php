@@ -39,6 +39,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="lesson-1">Lesson 1</a></li>
                             <li><a href="lesson-2">Lesson 2</a></li>
+                            <li><a href="lesson-3">Lesson 3</a></li>
                         </ul>
                     </li>
                 </ul>
