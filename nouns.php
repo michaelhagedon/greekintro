@@ -24,12 +24,12 @@ require_once('includes/header.php');
     <div id="w1" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">ἄνθρωποι βλέπουσιν.</div></div>
 		<div class="row"><div class="col-xs-12 translation">People are seeing.</div></div>
-        <div class="row"><div class="col-xs-12 pronunciation">ahn'-throh-peew bleh'-poo-seen.</div></div>
+        <div class="row"><div class="col-xs-12 pronunciation">ahn'-throh-peew vleh'-poo-seen.</div></div>
 	</div>
     <div id="w2" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">ἀνθρώπους βλέπουσιν.</div></div>
 		<div class="row"><div class="col-xs-12 translation">They are seeing people.</div></div>
-        <div class="row"><div class="col-xs-12 pronunciation">ahn-throh'-poos bleh'-poo-seen.</div></div>
+        <div class="row"><div class="col-xs-12 pronunciation">ahn-throh'-poos vleh'-poo-seen.</div></div>
 	</div>
     <div class="clearfix visible-xs"></div>
 	<div id="w3" class="word col-xs-12 col-lg-6">
@@ -40,7 +40,7 @@ require_once('includes/header.php');
     <div id="w4" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">ἀγγέλους βλέπουσιν.</div></div>
 		<div class="row"><div class="col-xs-12 translation">They are seeing angels.</div></div>
-        <div class="row"><div class="col-xs-12 pronunciation">ahn'-yehl-oos bleh'-poo-seen.</div></div>
+        <div class="row"><div class="col-xs-12 pronunciation">ahn'-yehl-oos vleh'-poo-seen.</div></div>
 	</div>
     <div class="clearfix visible-xs"></div>
 	<div id="w5" class="word col-xs-12 col-lg-6">
