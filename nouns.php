@@ -35,12 +35,12 @@ require_once('includes/header.php');
 	<div id="w3" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">ἄγγελοι λέγουσιν.</div></div>
 		<div class="row"><div class="col-xs-12 translation">Angels are speaking.</div></div>
-        <div class="row"><div class="col-xs-12 pronunciation">ahn'-yehl-eew leh'-goo-seen.</div></div>
+        <div class="row"><div class="col-xs-12 pronunciation">ahn'-yeh-leew leh'-goo-seen.</div></div>
 	</div>
     <div id="w4" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">ἀγγέλους βλέπουσιν.</div></div>
 		<div class="row"><div class="col-xs-12 translation">They are seeing angels.</div></div>
-        <div class="row"><div class="col-xs-12 pronunciation">ahn'-yehl-oos vleh'-poo-seen.</div></div>
+        <div class="row"><div class="col-xs-12 pronunciation">ahn-yeh'-loos vleh'-poo-seen.</div></div>
 	</div>
     <div class="clearfix visible-xs"></div>
 	<div id="w5" class="word col-xs-12 col-lg-6">
@@ -56,7 +56,7 @@ require_once('includes/header.php');
     <div class="clearfix visible-lg visible-xs"></div>        
 </div>
 
-<h2>γράφαι <small>Scriptures</small></h2>
+<h2>γραφαί <small>Scriptures</small></h2>
 <div id="greek-text" class="row">
     <div id="w7" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">Ἰδὼν δὲ τοὺς ὄχλους...</div></div>
