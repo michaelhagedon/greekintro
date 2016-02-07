@@ -46,7 +46,7 @@ require_once('includes/header.php');
 	<div id="w5" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">οἱ κύριοι ἀγαπῶσιν.</div></div>
 		<div class="row"><div class="col-xs-12 translation">The masters love.</div></div>
-        <div class="row"><div class="col-xs-12 pronunciation">eew keew'-ree-eww ah-gah-poh'-seen.</div></div>
+        <div class="row"><div class="col-xs-12 pronunciation">eew keew'-ree-eew ah-gah-poh'-seen.</div></div>
 	</div>
 	<div id="w6" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">τοὺς κυρίους ἀγαπῶσιν.</div></div>
