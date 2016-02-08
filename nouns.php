@@ -18,13 +18,24 @@ require_once('includes/header.php');
 
 <div id="greek-text" class="row">	
     <div class="col-xs-12">
-		<button type="button" class="btn btn-default" id="translation-toggle">Show/hide translations</button>
-        <button type="button" class="btn btn-default" id="pronunciation-toggle">Show/hide pronunciations</button>
+		<button type="button" class="btn btn-default" id="translation-toggle-all">Show or hide all translations</button>
+        <button type="button" class="btn btn-default" id="pronunciation-toggle-all">Show or hide all pronunciations</button>
 	</div>
-    <div id="w1" class="word col-xs-12 col-lg-6">
+    <div id="w1" class="word col-xs-12 col-lg-6 greek-card">
 		<div class="row"><div class="col-xs-12">ἄνθρωποι βλέπουσιν.</div></div>
 		<div class="row"><div class="col-xs-12 translation">People are seeing.</div></div>
         <div class="row"><div class="col-xs-12 pronunciation">ahn'-throh-peew vleh'-poo-seen.</div></div>
+        <div class="row">
+            <button type="button" class="btn btn-default col-xs-1 translation-toggle" title="Show or hide translation">
+                <span class="glyphicon glyphicon-font" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default col-xs-1 pronunciation-toggle" title="Show or hide pronunciation">
+                <span class="glyphicon glyphicon-font" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default col-xs-1 listen" title="Listen">
+                <span style="font-size: 1.5em;" class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+            </button>
+        </div>
 	</div>
     <div id="w2" class="word col-xs-12 col-lg-6">
 		<div class="row"><div class="col-xs-12">ἀνθρώπους βλέπουσιν.</div></div>
@@ -81,11 +92,18 @@ require_once('includes/header.php');
 <script>
     $('.translation').hide();
     $('.pronunciation').hide();
-    $('#translation-toggle').click(function() {
+    $('#translation-toggle-all').click(function() {
         $('.translation').toggle();
     });
-    $('#pronunciation-toggle').click(function() {
+    $('#pronunciation-toggle-all').click(function() {
         $('.pronunciation').toggle();
+    });
+
+    $('.translation-toggle').click(function() {
+        $(this).closest('.greek-card').find('.translation').toggle();
+    });
+    $('.pronunciation-toggle').click(function() {
+        $(this).closest('.greek-card').find('.pronunciation').toggle();
     });
     
     document.addEventListener( "DOMContentLoaded", function() {
@@ -114,7 +132,7 @@ require_once('includes/header.php');
 		$('.word').click(function() {
 			var $audio = $('#greek-audio');
 			$audio[0].currentTime = wordTimes[$(this).attr('id')].start + 0.1;
-			console.log($audio[0].currentTime);
+			pop.play(wordTimes[$(this).attr('id')].end - wordTimes[$(this).attr('id')].start);
 		});
     }, false);
 </script>
