@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {"Hagedon\\GreekIntro\\": "src/"}
+    }
+}
