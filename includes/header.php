@@ -41,6 +41,7 @@
                             <li><a href="lesson-2.php">Lesson 2</a></li>
                             <li><a href="lesson-3.php">Lesson 3</a></li>
                             <li><a href="nouns.php">Nouns</a></li>
+                            <li><a href="dative.php">Dative</a></li>
                         </ul>
                     </li>
                 </ul>
